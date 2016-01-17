@@ -1,13 +1,13 @@
-var example = (function(){
+var BigScene = (function() {
   "use strict";
 
   var scene = new THREE.Scene(),
-  renderer = new THREE.WebGLRenderer(),
-  light = new THREE.AmbientLight(0xffffff),
-  camera,
-  box;
+    renderer = new THREE.WebGLRenderer(),
+    light = new THREE.AmbientLight(0xffffff),
+    camera,
+    box;
 
-  function initScene(){
+  function initScene() {
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.getElementById("webgl-container").appendChild(renderer.domElement);
 
@@ -18,26 +18,42 @@ var example = (function(){
 
     box = new THREE.Mesh(
       new THREE.BoxGeometry(20, 20, 20),
-      new THREE.MeshBasicMaterial({color: 0xFF0000})
+      new THREE.MeshBasicMaterial({
+        color: 0xFF0000
+      })
     );
 
     box.name = "Hello World Box";
     scene.add(box);
 
+    var stats = new Stats();
+    stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    document.body.appendChild(stats.domElement);
+
+    var update = function() {
+      stats.begin();
+      stats.end();
+      requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
     render();
   }
 
-  function render(){
+  function render() {
     box.rotation.y += 0.01;
 
     renderer.render(scene, camera);
     requestAnimationFrame(render);
+
   }
 
   window.onload = initScene;
 
   return {
-    scene : scene
+    scene: scene
   }
 
 })();
