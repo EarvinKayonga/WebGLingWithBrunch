@@ -1,0 +1,26 @@
+{
+  "name": "WebGLingWithBrunch",
+  "homepage": "https://github.com/EarvinKayonga/WebGLingWithBrunch",
+  "authors": [
+    "EarvinKayonga <e.kayonga@bevolta.com>"
+  ],
+  "description": "Full JavaScript Application showcasing Three.js and brunch",
+  "main": "index.html",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "Three.js",
+    "Brunch",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
