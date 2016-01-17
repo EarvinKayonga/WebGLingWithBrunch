@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node node_modules/.bin/webpack-dev-server --port 10003 --content-base public"
+    "start": "node node_modules/.bin/webpack-dev-server --port 10003 --content-base public",
+    "web": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/EarvinKayonga/WebGLingWithWebpack#readme",
   "dependencies": {
+    "express": "^4.13.3",
     "forever": "^0.15.1",
     "webpack": "^1.12.11",
     "webpack-dev-server": "^1.14.1"

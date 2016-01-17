@@ -1,0 +1,7 @@
+{
+    "uid": "3d",
+    "append": true,
+    "watch": true,
+    "script": "server.js",
+    "sourceDir": "~/Lab/WebGL"
+}
