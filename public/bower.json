@@ -1,10 +1,10 @@
 {
   "name": "WebGLingWithBrunch",
-  "homepage": "https://github.com/EarvinKayonga/WebGLingWithBrunch",
+  "homepage": "https://github.com/EarvinKayonga/WebGLingWithWebpack",
   "authors": [
     "EarvinKayonga <e.kayonga@bevolta.com>"
   ],
-  "description": "Full JavaScript Application showcasing Three.js and brunch",
+  "description": "Full JavaScript Application showcasing Three.js and webpack",
   "main": "index.html",
   "moduleType": [
     "es6",

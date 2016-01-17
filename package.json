@@ -1,14 +1,14 @@
 {
   "name": "webglingwithbrunch",
   "version": "0.0.1",
-  "description": "Full JavaScript Application showcasing Three.js and brunch",
+  "description": "Full JavaScript Application showcasing Three.js and Webpack",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EarvinKayonga/WebGLingWithBrunch.git"
+    "url": "git+https://github.com/EarvinKayonga/WebGLingWithWebpack.git"
   },
   "keywords": [
     "Three.js",
@@ -18,7 +18,7 @@
   "author": "EarvinKayonga",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EarvinKayonga/WebGLingWithBrunch/issues"
+    "url": "https://github.com/EarvinKayonga/WebGLingWithWebpack/issues"
   },
-  "homepage": "https://github.com/EarvinKayonga/WebGLingWithBrunch#readme"
+  "homepage": "https://github.com/EarvinKayonga/WebGLingWithWebpack#readme"
 }

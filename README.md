@@ -1,2 +1,2 @@
-# WebGLingWithBrunch
-Full JavaScript Application showcasing Three.js and brunch
+# WebGLingWithWebpack
+Full JavaScript Application showcasing Three.js and Webpack
