@@ -4,5 +4,5 @@
     "watch": true,
     "append": true,
     "script": "server.js",
-    "sourceDir": "/home/earvin/Lab/WebGl",
+    "sourceDir": "/home/earvin/Lab/WebGl"
 }
