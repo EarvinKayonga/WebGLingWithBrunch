@@ -2,6 +2,8 @@
     "uid": "3d",
     "append": true,
     "watch": true,
+    "append": true,
     "script": "server.js",
-    "sourceDir": "~/Lab/WebGL"
+    "sourceDir": "~/Lab/WebGl",
+    "args": ["--minUptime", 2000, "--spinSleepTime", 2000]
 }
