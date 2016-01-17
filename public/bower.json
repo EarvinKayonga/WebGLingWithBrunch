@@ -24,6 +24,7 @@
     "tests"
   ],
   "dependencies": {
-    "three.js": "~0.73.0"
+    "three.js": "~0.73.0",
+    "stats.js": "*"
   }
 }
