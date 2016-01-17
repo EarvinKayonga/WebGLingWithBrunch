@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/EarvinKayonga/WebGLingWithWebpack#readme",
   "dependencies": {
+    "forever": "^0.15.1",
     "webpack": "^1.12.11",
     "webpack-dev-server": "^1.14.1"
   }
