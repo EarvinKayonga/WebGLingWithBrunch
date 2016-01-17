@@ -1,10 +1,11 @@
 {
-  "name": "webglingwithbrunch",
+  "name": "webglingwithwebpack",
   "version": "0.0.1",
   "description": "Full JavaScript Application showcasing Three.js and Webpack",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/.bin/webpack-dev-server --port 10003 --content-base public"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/EarvinKayonga/WebGLingWithWebpack/issues"
   },
-  "homepage": "https://github.com/EarvinKayonga/WebGLingWithWebpack#readme"
+  "homepage": "https://github.com/EarvinKayonga/WebGLingWithWebpack#readme",
+  "dependencies": {
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
