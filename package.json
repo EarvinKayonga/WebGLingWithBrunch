@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node node_modules/.bin/webpack-dev-server --port 10003 --content-base public",
-    "web": "node server.js"
+    "web": "node server.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
